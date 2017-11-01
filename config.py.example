@@ -1,0 +1,18 @@
+config = {
+	"DO-token": "DigitalOcean Token Here",
+
+	"droplet-name": "VPN",
+	"droplet-region": "ams2",   # Check digital ocean regions...
+	"droplet-size": "512mb",    # ...and sizes =)
+	"droplet-image": "ubuntu-14-04-x64",    # Also digital ocean predefined string
+	"droplet-ssh-keys": ["29:00:55:96:0b:81:d1:04:bc:a2:3c:e2:47:43:36:31"],    # Added by yourself on website
+
+	"private-key-file": "E:\Documents\SSHKeys\KellsNotebook",   # Location of private key for ssh connection
+
+	"droplet-username": "kell",
+
+	# public key for new created user
+	"ssh-public-key": "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAsI98Ue2j+H2YcH4+GdOPHaooGcrOB26glK8T3d87DVdRVPkUpO99rzZfk4NlkFGn6eKIPOC65CkwKPMR7vCBvDGv8rfvWPMY3s8tWk7Sklr5TISP/jOztB6F3HxYVaEr9jTc7zyfJMAb0J8xCBVc52+CpF0Wy2S3rX6JlvpX1S6tjKxgYDgXfxV5DM7TSXFBKnm7orVa82h5PSbEgQ2eG3gc8P86hHTgJVdT/z21EH82E8i+6A8x4oxN6TDk2YlU69CpZe564+Fd1rbZnq2Y+o2uA0wS/7Mi70nr/JqlOODD8JgO9bWdhL4/4ki1GMeGak54JSRoFonw5gmQ+qa7gw== kell_s notebook",
+
+	"ovpn-directory": "E:\Documents\SSHKeys"    # Directory for downloading ovpn files
+}
